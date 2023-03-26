@@ -25,17 +25,20 @@ button {
 .app-sidebar-header h1 {
   margin: 0;
 }
+
 .app-sidebar-notes {
   height: calc(100vh - 78px);
   overflow-y: scroll;
   /* padding-right: 5px; */
 }
+
 .app-sidebar-note {
   border-radius: 5px;
   padding: 25px;
   cursor: pointer;
   transition: all 0.3s;
 }
+
 .sidebar-note-title {
   display: flex;
   justify-content: space-between;
